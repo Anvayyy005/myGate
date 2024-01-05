@@ -5,10 +5,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-nav{
-    display: flex;
-    
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,13 +17,13 @@ a {
     text-decoration: none;
     padding: 10px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 100px;
-    background-color: rgb(244, 236, 225);
-}
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1vw;
+        align-items: center;
+    }
+
 .big-text{
     font-size: 30px;
     margin-top: 190px;
@@ -368,16 +365,130 @@ footer{
 }
 
 .center-part{
-    background-color: rgb(191, 205, 237);
-}
-
-
-.whatsapp{
-    height: 50px;
-    width: 50px;
+    background-color: rgb(202, 237, 191);
 }
 
 
 .connect-button{
     display: flex;
 }
+
+@media (min-width:50px) {
+
+    html{
+        width:fit-content;
+    }
+   
+    .paragraph{
+        max-width: 40vw;
+        font-size: 2vw;
+    }
+    /* a {
+        color: black;
+        text-decoration: none;
+        padding: 2vw; 
+    } */
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1vw;
+        align-items: center;
+    }
+    
+    .abc{
+        margin-left: 3vw;
+    }
+     
+    .big-text {
+        font-size: 2.1vw; 
+        margin-top: 5vw; 
+        margin-bottom: 1vw; 
+        max-width: 50vw; 
+        color: rgb(62, 62, 62);
+    }
+    
+   
+   
+    .image {
+        width: 10vw; 
+        margin-top: 5vw;
+        margin-left: 5vw;
+    } 
+
+    
+    /* .demo,
+    .connect,
+    .submit-button {
+        padding: 2vw;
+    } */
+
+    
+    
+    .three-elements {
+        display: flex;
+        align-items: center;
+        padding: 5vw;
+    }
+    
+    .first-element,
+    .second-element,
+    .third-element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img1,
+    .img2,
+    .img3 {
+        height: 5vw;
+        width: 5vw;
+    }
+    
+    .image1,
+    .image2,
+    .image3 {
+        height: 3.5vw; 
+        width: 3.5vw; 
+        top: 1vw; 
+        right: 1vw; 
+    }
+    
+    .footer {
+        padding: 5vw; 
+    }
+    
+    .name,
+    .mobile,
+    .email,
+    .society,
+    .option,
+    .city {
+        padding: 2vw 5vw;
+        margin: 2vw 2vw; 
+    }
+    
+    .logo {
+        height: 5vw; 
+        margin-left: 3vw; 
+    }
+    
+    .image {
+        display: flex;
+        position: relative;
+        right: 40vw; 
+        top: 1vw;
+        height: 40vw; 
+        z-index: 1;
+    }
+    .lower-body{
+        margin-left: 2vw;
+    }
+    .accordion {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8vw;
+    }
+   
+}    
